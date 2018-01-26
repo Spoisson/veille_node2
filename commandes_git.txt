@@ -1,7 +1,9 @@
-git remote add origin https://github.com/eddypmartin/wp-theme.git
+git remote add origin https://github.com/Spoisson/veille_node.git
 git push -u origin master
 
 git add <nom du fichier> // indexer un seul fichier
 git add . // indexer l'ensemble des fichiers modifiés
 
-git status -s // etat plus reduite des etats des fichiers
+git status
+git status -s // etat plus reduite des etats des fichiers (-s = short)
+

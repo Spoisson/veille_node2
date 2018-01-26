@@ -1,0 +1,19 @@
+div.liste {
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+div.liste div {
+
+	background-color: pink;
+	border: 2px solid #ffffff;
+
+}
+
+body header {
+
+	align: center;
+
+}
