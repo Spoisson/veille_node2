@@ -4,14 +4,17 @@ div.liste, div.liste2 {
 	flex-direction: column;
 	margin-bottom: 3%;
 	height: 60vh;
+	width: 50%;
+	margin: 0 auto;
+	justify-content: space-around;
 
 }
 
 div.liste div {
 
 	background-color: pink;
-	border: 3px solid #ffffff;
-	flex: 1 0 0;
+	/*border: 3px solid #ffffff;*/
+	flex: 0 0 30%;
 
 
 }
@@ -19,7 +22,7 @@ div.liste div {
 div.liste2 div {
 
 	background-color: orange;
-	border: 5px solid #ffffff;
+	/*border: 5px solid #ffffff;*/
 
 }
 
@@ -39,6 +42,7 @@ main div.menu {
 
 	display: flex;
 	flex-direction: row;
+	background-color: cyan;
 
 
 }
