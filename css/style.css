@@ -1,13 +1,21 @@
-div.liste {
+div.liste, div.liste2 {
 
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 3%;
 
 }
 
 div.liste div {
 
 	background-color: pink;
+	border: 2px solid #ffffff;
+
+}
+
+div.liste2 div {
+
+	background-color: orange;
 	border: 2px solid #ffffff;
 
 }
@@ -26,6 +34,26 @@ body header {
 
 main div.menu {
 
+	display: flex;
+	flex-direction: row;
 
 
 }
+
+main div.menu ul {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+	width: 100%;
+
+}
+
+
+main div.menu ul li {
+
+	list-style: none;
+
+}
+
