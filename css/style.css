@@ -27,7 +27,15 @@ div.liste div {
 	background-color: #e6c7a3;
 	/*border: 3px solid #ffffff;*/
 	flex: 0 0 30%;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+div.liste div i {
+
+	font-size: 80px;
 
 }
 
