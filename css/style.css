@@ -15,7 +15,7 @@ div.liste2 {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 3%;
-	height: 60vh;
+	height: 80vh;
 	width: 80%;
 	margin: 0 auto;
 	justify-content: space-around;
@@ -30,7 +30,7 @@ div.liste div {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 }
 
 div.liste div i {
@@ -45,6 +45,13 @@ div.liste2 div {
 	/*border: 5px solid #ffffff;*/
 	flex: 0 0 30%;
 	text-align: center;
+
+}
+
+div.liste2 div img {
+
+	height: 80%;
+	width: 40%; 
 
 }
 
