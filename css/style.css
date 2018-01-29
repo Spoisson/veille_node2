@@ -12,10 +12,10 @@ div.liste, div.liste2 {
 
 div.liste div {
 
-	background-color: pink;
+	background-color: #e6c7a3;
 	/*border: 3px solid #ffffff;*/
 	flex: 0 0 30%;
-
+	text-align: center;
 
 }
 
@@ -33,7 +33,7 @@ body header {
 	font-weight: bold;
 	padding-bottom: 20px;
 	padding-top: 10px;
-	background-color: yellow;
+	background-color: #e6c7a3;
 	margin-bottom: 10px;
 
 }
@@ -42,8 +42,8 @@ main div.menu {
 
 	display: flex;
 	flex-direction: row;
-	background-color: cyan;
-
+	background-color: #9c5348;
+	color: #ffffff;
 
 }
 
