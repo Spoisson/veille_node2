@@ -37,7 +37,10 @@ div.liste div {
 
 div.liste div a {
 
-	flex: 0 0 20%;
+	font-family: 'Crete Round';
+	font-size: 20px; 
+	flex: 0 0 25%;
+	text-align: center;
 
 }
 
