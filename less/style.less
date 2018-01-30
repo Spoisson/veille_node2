@@ -33,6 +33,9 @@ body {
 		background-color: @orangeFonce;
 		margin-bottom: 10px;
 
+		animation: animationTitre 0.5s ease-out;
+		animation-fill-mode: forwards;
+
 	}
 
 
@@ -194,6 +197,20 @@ body {
 
 	}
 
+
+}
+
+@keyframes animationTitre {
+	from {
+
+		transform: translateX(-400%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
 
 }
 
