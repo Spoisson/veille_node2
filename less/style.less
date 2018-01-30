@@ -199,44 +199,52 @@ body {
 
 /*debut de MEDIA QUERY */
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
 
-    div.liste {
+	body {
 
-		flex-direction: row;
-		height: 80vh;
-		flex-wrap: wrap;
-		width: 100%;
-		justify-content: center;
+		main {
 
+		    div.liste {
 
-		div {
-
-    			flex: 0 0 40%;
-
-   		 }
+				flex-direction: row;
+				height: 80vh;
+				flex-wrap: wrap;
+				width: 100%;
+				justify-content: center;
 
 
-    }
+				div {
+
+		    			flex: 0 0 40%;
+
+		   		 }
 
 
-	div.liste2 {
+	   		}
 
-		flex-direction: row;
-		flex-wrap: wrap;
-		height: 100vh;
-		width: 100%;
-		margin: 0 auto;
-		justify-content: center;
+	   		div.liste2 {
 
-		div {
+				flex-direction: row;
+				flex-wrap: wrap;
+				height: 100vh;
+				width: 100%;
+				margin: 0 auto;
+				justify-content: center;
 
-			flex: 0 0 48%;
-			margin: 5px;
+				div {
 
-		}
+					flex: 0 0 48%;
+					margin: 5px;
+
+				}
+
+			}
+
+	   	}
 
 	}
+
 
 }
 
