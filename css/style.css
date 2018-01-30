@@ -79,6 +79,7 @@ div.liste2 div img:hover {
 		height: 100%;
 		width: 100%;
 		opacity: 1;
+		cursor: pointer;
 
 }
 
@@ -132,6 +133,7 @@ main div.menu ul li {
 	align-items: center;
 	padding: 20px;
 	/*flex: 0 0 15%;*/
+	cursor: pointer;
 }
 
 main div.menu ul li:hover {
