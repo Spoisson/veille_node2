@@ -29,9 +29,15 @@ div.liste div {
 	flex: 0 0 30%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	transition: border 0.5s;
 	border: 5px solid #f3dedb;
+
+}
+
+div.liste div a {
+
+	flex: 0 0 20%;
 
 }
 
@@ -48,16 +54,9 @@ div.liste div i {
 
 }
 
-div.liste div i {
-
-	font-size: 80px;
-	transition: border 1s;
-	
-
-}
-
 div.liste2 div {
 
+	display: flex;
 	background-color: #c5c5c5;
 	/*border: 5px solid #ffffff;*/
 	flex: 0 0 30%;
