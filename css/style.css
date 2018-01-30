@@ -97,6 +97,7 @@ main div.menu {
 	flex-direction: row;
 	background-color: #9c5348;
 	color: #ffffff;
+	height: 5vh;
 
 }
 
@@ -107,6 +108,8 @@ main div.menu ul {
 	justify-content: space-around;
 	padding: 0;
 	width: 100%;
+	height: 100%;
+	margin: 0;
 
 }
 
@@ -114,7 +117,16 @@ main div.menu ul {
 main div.menu ul li {
 
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
+}
+
+main div.menu ul li:hover {
+
+	background-color: #e6c7a3;
+	
 }
 
 footer {
