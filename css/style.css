@@ -30,12 +30,29 @@ div.liste div {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: border 0.5s;
+	border: 5px solid #f3dedb;
+
+}
+
+div.liste div:hover {
+
+	border: 5px solid #000000;
+
+}
+
+
+div.liste div i {
+
+	font-size: 80px;
 
 }
 
 div.liste div i {
 
 	font-size: 80px;
+	transition: border 1s;
+	
 
 }
 
