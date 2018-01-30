@@ -68,6 +68,12 @@ body header {
 
 }
 
+body main {
+
+	background-color: #f3dedb;
+
+}
+
 main div.menu {
 
 	display: flex;
