@@ -25,22 +25,26 @@ body {
 
 	header {
 
-		text-align: center;
-		font-size: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 20px;
 		font-weight: bold;
 		padding-bottom: 20px;
 		padding-top: 10px;
 		background-color: @orangeFonce;
-
+		height: 15vh;
 		animation: animationTitre 0.5s ease-out;
 		animation-fill-mode: forwards;
+
 
 	}
 
 
 	main {
 
-		background-color: @rougePale;
+		background-color: @orangeFonce;
 
 		div.menu {
 
@@ -106,14 +110,14 @@ body {
 
 			div {
 
-				background-color: @orangeFonce;
+				background-color: @rougeFonce;
 				/*border: 3px solid @blanc;*/
 				flex: 0 0 30%;
 				display: flex;
 				align-items: center;
 				justify-content: space-around;
 				transition: border 0.5s;
-				border: 5px solid @rougePale;
+				border: 5px solid @orangeFonce;
 
 
 				a {
