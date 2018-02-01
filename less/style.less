@@ -88,8 +88,9 @@ body {
 
 					&:hover {
 
-						color: @noir;
-						background-color: @orangeFonce;
+						animation: animationOngletsMenu 0.5s ease-out;
+						animation-fill-mode: forwards;
+
 					}
 
 				}
@@ -219,6 +220,23 @@ body {
 	to {
 		transform: translateX(0%);
 		opacity: 1;
+	}
+
+}
+
+
+
+@keyframes animationOngletsMenu {
+	from {
+
+		border-top: 3px solid @rougeFonce;
+
+	}
+
+	to {
+
+		border-top: 3px solid @orangeFonce;
+
 	}
 
 }
